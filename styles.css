@@ -1,0 +1,309 @@
+
+#fondo {
+	color: white;
+	font-size: 20px;
+  background-color: #1b1e21;
+}
+
+
+
+#fondoencabezado {
+	height: 300px;
+	background-image: 
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+#captura3 {
+	float: right;
+
+
+}
+
+
+
+body {
+    overflow-x: hidden; 
+    background-color: #1b1e21;
+}
+
+}
+footer {
+    padding: 30px 0;
+}
+
+ #header {
+ 	display: inline-block;
+
+ }
+
+.navbar-brand {
+    font-size: 15px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color:#1b1e21;
+    border-color: #050505;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+#encabezado {
+	width: 250px;
+	height: auto;
+	padding-bottom: 45px;
+}
+
+.jumbotron {
+	background-image: url(fondoencabezado.jpg);
+    position: relative;
+    width:100%;
+    height: 100%;
+    color: #fff;
+      z-index: 1;
+    
+    }
+
+  .jumbotron::before {
+  content: " ";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: 0.5; 
+  z-index: -1;
+  background: rgb(0, 0, 0);
+  background-size: cover;
+    }
+
+.carousel-control {
+  width: 0px;
+  opacity: 1;
+}
+.carousel-control.left {
+  left: 92%;
+  top: -60px;
+  
+}
+.carousel-control.right {
+  right: 3%;
+  top: -60px;
+}
+
+#heart {
+	width: 45px;
+	height: 45px;
+}
+
+#dw {
+	width: 40px;
+	height:40px;
+}
+
+#cyg {
+	width: 40px;
+	height: 40px;
+}
+
+#me {
+	width: 40px;
+	height: 40px;
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
+#va {
+	width: 45px;
+	height: 45px;
+}
+
+#header {
+	font-size: 15px;
+}
+
+#yo{
+	font-size: 45px;
+	color:white;
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	padding:2px;
+	margin-bottom: 5px;
+}
+
+#yo2 {
+}
+
+
+
+    .iframe-container {    
+    padding-bottom: 60%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal.in .modal-dialog {
+  transform: none; /*translate(0px, 0px);*/
+}
+
+
+
+
+
+#mc {
+	font-size: 15px;
+}
+
+
+#pr {
+	width: 100px;
+	height: auto;
+}
+
+#ps {
+	width: 100px;
+	height: auto;
+}
+
+#ps2 {
+	width: 100px;
+	height: auto;
+}
+
+#pc {
+	width: 100px;
+	height: auto;
+}
+
+#modal {
+	font-size: 20px;
+	color: black;
+}
+
+#javascript {
+	width: 70px;
+	height: 70px;
+}
+
+#css {
+	width: 70px;
+	height: 70px;
+}
+
+#bootstrap {
+	width: 70px;
+	height: 70px;
+}
+
+
+#html {
+	width: 70px;
+	height: 70px;
+}
+
+
+#dww {
+	width: 200px;
+	height: auto;
+}
+
+#diseñow {
+	width: 200px;
+	height: auto;
+}
+
+#carousel {
+	margin: 50px;
+}
+
+#entrevistas {
+background-color: rgba(166, 77, 255, 0.1);
+}
+
+#competencias {
+	width: 200px;
+	height: 200px;
+}
+
+#habilidades {
+height: 200px;
+width: 200px;
+}
+
+#fb {
+	height: 25px;
+	width: 25px;
+}
+
+#gmail {
+
+	height: 25px;
+	width: 25px;
+}
+
+#phone {
+	height: 25px;
+	width: 25px;
+}
+
+#piepagina {
+	font-size: 15px;
+}
+
+#esp {
+	width: 50px;
+	height: 50px;
+}
+
+#ingles {
+	width: 50px;
+	height: 50px;
+}
+
+#abstract {
+	margin: 45px;
+}
+
+#CV {
+	margin: 150px;
+}
